@@ -10,8 +10,8 @@ function M.get(style)
 
   hl.normal = {
     a = { bg = colors.blue, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.blue },
-    c = { bg = colors.bg_statusline, fg = colors.fg_sidebar },
+    b = { bg = colors.fg_gutter, fg = colors.black },
+    c = { bg = colors.bg_statusline, fg = colors.white },
   }
 
   hl.insert = {
@@ -21,22 +21,22 @@ function M.get(style)
 
   hl.command = {
     a = { bg = colors.yellow, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.yellow },
+    b = { bg = colors.purple, fg = colors.black },
   }
 
   hl.visual = {
     a = { bg = colors.magenta, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.magenta },
+    b = { bg = colors.blue, fg = colors.black },
   }
 
   hl.replace = {
     a = { bg = colors.red, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.red },
+    b = { bg = colors.orange, fg = colors.black },
   }
 
   hl.terminal = {
     a = { bg = colors.green1, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.green1 },
+    b = { bg = colors.blue1, fg = colors.black },
   }
 
   hl.inactive = {
