@@ -9,34 +9,34 @@ function M.get(style)
   local hl = {}
 
   hl.normal = {
-    a = { bg = colors.blue, fg = colors.black },
-    b = { bg = colors.fg_gutter, fg = colors.black },
-    c = { bg = colors.bg_statusline, fg = colors.white },
+    a = { bg = colors.blue, fg = colors.bg_dark },
+    b = { bg = colors.fg_gutter, fg = colors.bg_dark },
+    c = { bg = colors.bg_statusline, fg = colors.fg },
   }
 
   hl.insert = {
-    a = { bg = colors.green, fg = colors.black },
+    a = { bg = colors.green, fg = colors.bg_dark },
     b = { bg = colors.fg_gutter, fg = colors.green },
   }
 
   hl.command = {
-    a = { bg = colors.yellow, fg = colors.black },
-    b = { bg = colors.purple, fg = colors.black },
+    a = { bg = colors.yellow, fg = colors.bg_dark },
+    b = { bg = colors.purple, fg = colors.bg_dark },
   }
 
   hl.visual = {
-    a = { bg = colors.magenta, fg = colors.black },
-    b = { bg = colors.blue, fg = colors.black },
+    a = { bg = colors.magenta, fg = colors.bg_dark },
+    b = { bg = colors.blue, fg = colors.bg_dark },
   }
 
   hl.replace = {
-    a = { bg = colors.red, fg = colors.black },
-    b = { bg = colors.orange, fg = colors.black },
+    a = { bg = colors.red, fg = colors.bg_dark },
+    b = { bg = colors.orange, fg = colors.bg_dark },
   }
 
   hl.terminal = {
-    a = { bg = colors.green1, fg = colors.black },
-    b = { bg = colors.blue1, fg = colors.black },
+    a = { bg = colors.green1, fg = colors.bg_dark },
+    b = { bg = colors.blue1, fg = colors.bg_dark },
   }
 
   hl.inactive = {
